@@ -1,0 +1,265 @@
+/**index.wxss**/
+
+.page-body {
+  width: 100%;
+}
+
+image {
+  width: 100%;
+  height: 100%;
+}
+
+/*清除浮动  */
+
+.clearfix {
+  overflow: hidden;
+  _zoom: 1;
+}
+
+/* 居中 */
+
+.p_auto {
+  padding: 0 20rpx;
+}
+
+/* 轮播区域  */
+
+.page-section .pai_swiper {
+  height: 400rpx;
+}
+
+.page-section .pai_swiper .slide-image {
+  width: 100%;
+  height: 400rpx;
+}
+
+/* 导航  */
+
+.pai_nav {
+  width: 100%;
+  padding: 0 75rpx;
+  margin-bottom: 30rpx;
+}
+
+.pai_nav navigator {
+  float: left;
+  width: 112rpx;
+  padding-top: 40rpx;
+  text-align: center;
+  margin-right: 50rpx;
+}
+
+.pai_nav navigator:last-child {
+  margin-right: 0;
+}
+
+.pai_nav icon {
+  font-size: 60rpx;
+  display: block;
+  margin-bottom: 26rpx;
+}
+
+.pai_nav text {
+  font-size: 28rpx;
+  font-weight: bold;
+}
+
+/* 活动专区  */
+
+.pai_activity {
+  margin-bottom: 46rpx;
+}
+
+.pai_activity>view {
+}
+
+.pai_activity .img_top {
+  margin-bottom: 16rpx;
+}
+
+.pai_activity .img_top image {
+  width: 100%;
+  height: 204rpx;
+}
+
+.pai_activity .img_bot {
+}
+
+.pai_activity .img_bot view {
+  float: left;
+  height: 358rpx;
+}
+
+.pai_activity .img_bot view image {
+  width: 100%;
+}
+
+.pai_activity .img_bot view:first-child {
+  width: 290rpx;
+  margin-right: 20rpx;
+}
+
+.pai_activity .img_bot view:last-child {
+  width: 400rpx;
+}
+
+.pai_activity .img_bot view:last-child image {
+  height: 174rpx;
+  margin-bottom: 10rpx;
+}
+
+.pai_activity .img_bot view:last-child image:last-child {
+  margin-bottom: 0;
+}
+
+/* 美丽心得  */
+
+.section_01 {
+}
+
+.section_01 .pai_title {
+  text-align: center;
+  margin-bottom: 30rpx;
+}
+
+.section_01 .pai_title text {
+  font-size: 39rpx;
+  font-weight: bold;
+  position: relative;
+}
+
+.section_01 .pai_title text::before, .section_01 .pai_title text::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #494949;
+  width: 60rpx;
+  height: 4rpx;
+}
+
+.section_01 .pai_title text::before {
+  left: -70rpx;
+}
+
+.section_01 .pai_title text::after {
+  right: -70rpx;
+}
+
+/*项目  */
+
+.section_01 .pai_pro {
+}
+
+.section_01 .pai_pro view {
+  font-size: 28rpx;
+  float: left;
+  font-weight: bold;
+  margin-right: 24rpx;
+  padding-bottom: 16rpx;
+}
+
+.section_01 .pai_pro view.active {
+  color: #009688;
+  border-bottom: 6rpx solid #009688;
+}
+
+.section_01 .pai_pro view:last-child {
+  margin-right: 0;
+}
+
+/*明星  */
+
+.pai_star {
+  margin: 20rpx 0;
+}
+
+.pai_star image {
+  width: 60rpx;
+  height: 60rpx;
+  border-radius: 30rpx;
+  border: 2rpx solid #e3e3e3;
+  vertical-align: middle;
+  margin-right: 28rpx;
+}
+
+.pai_star text {
+  font-size: 28rpx;
+  vertical-align: middle;
+}
+
+/*明星照片  */
+
+.section_01 .pai_starImg {
+}
+
+.section_01 .pai_starImg image {
+  width: 338rpx;
+  height: 340rpx;
+  margin-right: 32rpx;
+}
+
+.section_01 .pai_starImg image:last-child {
+  margin-right: 0;
+}
+
+/*描述  */
+
+.section_01 .pai_desc {
+  margin: 28rpx 0 30rpx;
+}
+
+.section_01 .pai_desc text {
+  font-size: 28rpx;
+}
+
+/*标签  */
+
+.section_01 .pai_label {
+  color: #009688;
+}
+
+.section_01 .pai_label icon {
+  font-size: 44rpx;
+  display: inline-block;
+  width: 44rpx;
+  height: 44rpx;
+  vertical-align: middle;
+}
+
+.section_01 .pai_label text {
+  font-size: 24rpx;
+  margin-right: 22rpx;
+  vertical-align: middle;
+}
+/*价格  */
+.section_01 .pai_scheme{
+  height: 60rpx;
+  width: 710rpx;
+  border: 2rpx solid #BBBBBB;
+  border-radius: 46rpx;
+  line-height: 60rpx;
+  box-sizing: border-box;
+  padding-left: 22rpx;
+  margin: 22rpx 0 40rpx;
+  position: relative;
+}
+.section_01 .pai_scheme icon{
+  display: inline-block;
+  width: 36rpx;
+  height: 36rpx;
+  margin-right: 22rpx;
+}
+.section_01 .pai_scheme text:first-of-type{
+  font-size: 24rpx;
+  vertical-align: middle;
+  color: rgba(16, 16, 16, 0.67)
+}
+.section_01 .pai_scheme .pai_price{
+  font-size: 28rpx;
+  color: #FF4081;
+  width: 176rpx;
+  vertical-align: middle;
+  position: absolute;
+  right: 0
+}

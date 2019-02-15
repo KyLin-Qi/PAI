@@ -1,0 +1,134 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="page-body">
+    <!--轮播区域  -->
+    <view class="page-section page-section-spacing swiper">
+      <swiper class='pai_swiper' autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+        <!-- <block wx:for="{{imgUrls}}" wx:key="*this">
+          <swiper-item>
+            <image src="{{item}}" class="slide-image" />
+          </swiper-item>
+        </block> -->
+        <swiper-item>
+          <image src="../images/swiper01.jpg" class="slide-image" />
+        </swiper-item>
+        <swiper-item>
+          <image src="../images/swiper02.jpg" class="slide-image" />
+        </swiper-item>
+        <swiper-item>
+          <image src="../images/swiper03.jpg" class="slide-image" />
+        </swiper-item>
+      </swiper>
+    </view>
+    <!--导航  -->
+    <view class='pai_nav clearfix '>
+      <navigator url=''>
+        <icon class='' type="" size="" color='' />
+        <text>精选热推</text>
+      </navigator>
+      <navigator url=''>
+        <icon class='' type="" size="" color='' />
+        <text>美丽日记</text>
+      </navigator>
+      <navigator url=''>
+        <icon class='' type="" size="" color='' />
+        <text>最新优惠</text>
+      </navigator>
+      <navigator url=''>
+        <icon class='' type="" size="" color='' />
+        <text>关于鹏爱</text>
+      </navigator>
+    </view>
+    <!--活动专区  -->
+    <view class='pai_activity p_auto'>
+      <view class='img_top'>
+        <image src='../images/PAIPIAM2.png'></image>
+      </view>
+      <view class='img_bot clearfix'>
+        <view>
+          <image src='../images/part_01.jpg'></image>
+        </view>
+        <view>
+          <image src='../images/swiper02.jpg'></image>
+          <image src='../images/swiper03.jpg'></image>
+        </view>
+      </view>
+    </view>
+    <!--美丽心得  -->
+    <view class='section_01 p_auto'>
+      <!--标题  -->
+      <view class='pai_title'>
+        <text>美丽心得</text>
+      </view>
+      <!--项目  -->
+      <view class='pai_pro clearfix'>
+        <view class='active'>推荐</view>
+        <view>眼部</view>
+        <view>鼻部</view>
+        <view>胸部</view>
+        <view>面部</view>
+        <view>胸部</view>
+        <view>皮肤美容</view>
+        <view>微整形</view>
+      </view>
+      <view class='pai_box'>
+        <!--明星  -->
+        <view class='pai_star'>
+          <image src='../images/yazi.jpg'></image>
+          <text>深圳彭于晏</text>
+        </view>
+        <!--明星照片  -->
+        <view class='pai_starImg'>
+          <image src='../images/03.png'></image>
+          <image src='../images/04.png'></image>
+        </view>
+        <!--描述  -->
+        <view class='pai_desc'>
+          <text>嘴型整体比术前大，与脸型协调;嘴角增长稍翘；下唇增厚轮廓变优美，拉开了上嘴唇比例，这些使原本无型</text>
+        </view>
+        <!--标签  -->
+        <view class='pai_label'>
+          <icon></icon>
+          <text>自体脂肪填充</text>
+          <text>瘦脸针</text>
+          <text>玻尿酸</text>
+        </view>
+        <!--方案价格  -->
+        <view class='pai_scheme'>
+          <icon></icon>
+          <text>【自体脂肪填充】</text>
+          <text class='pai_price'>¥ 3000</text>
+        </view>
+      </view>
+      <view class='pai_box'>
+        <!--明星  -->
+        <view class='pai_star'>
+          <image src='../images/yazi.jpg'></image>
+          <text>湖南刘德华</text>
+        </view>
+        <!--明星照片  -->
+        <view class='pai_starImg'>
+          <image src='../images/03.png'></image>
+          <image src='../images/04.png'></image>
+        </view>
+        <!--描述  -->
+        <view class='pai_desc'>
+          <text>嘴型整体比术前大，与脸型协调;嘴角增长稍翘；下唇增厚轮廓变优美，拉开了上嘴唇比例，这些使原本无型</text>
+        </view>
+        <!--标签  -->
+        <view class='pai_label'>
+          <icon></icon>
+          <text>自体脂肪填充</text>
+          <text>瘦脸针</text>
+          <text>玻尿酸</text>
+        </view>
+        <!--方案价格  -->
+        <view class='pai_scheme'>
+          <icon></icon>
+          <text>【双眼皮】</text>
+          <text class='pai_price'>¥ 680</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
